@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>API test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/planetinfo.js"></script>
+</head>
+
+<body>
+    <input type="button" value="mars"  onclick="planetGET('mars')" src="mars.png" />
+    <input type="button" value="mercure"  onclick="planetGET('mercure')" src="mercure.png" />
+    <input type="button" value="earth"  onclick="planetGET('terre')" src="earth.png"/>
+    <input type="button" value="jupiter"  onclick="planetGET('jupiter')" src="jupiter.png"/>
+    <input type="button" value="neptune"  onclick="planetGET('neptune')" src="neptune.png"/>
+    <input type="button" value="saturne"  onclick="planetGET('saturne')" src="saturne.png"/>
+    <input type="button" value="sun"  onclick="planetGET('soleil')" src="sun.png"/>
+    <input type="button" value="venus"  onclick="planetGET('venus')" src="venus.png" />
+    <input type="button" value="uranus"  onclick="planetGET('uranus')" src="uranus.png" />
+    <p id="EnglishName"></p>
+    <p id="inclination"></p>
+    <p id="density"></p>
+    <p id="gravity"></p>
+    <p id="meanRadius"></p>
+    <p id="sideralOrbit"></p>
+    <p id="sideralRotation"></p>
+    <p id="discoveredBy"></p>
+
+    <div id="moon_list">
+    </div>
+</body>
+
+</html>

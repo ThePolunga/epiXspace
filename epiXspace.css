@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('font/Minecraft.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background-image: url("sprites/background.png");
+    background-size: 100%;
+    margin:0px;
+}
+
+header
+{
+    height: 6%;
+    background-color: 696767;
+}
+header img
+{
+    height: 100%;
+    object-fit: contain;
+}
+
+p
+{
+    margin:0px;
+    background-color: rgb(29, 27, 27);;
+    color: white;
+    font-weight: bold;
+    Font-Family:"Minecraft";
+}
+
+#EnglishName
+{
+    font-size: large;
+}
+
+#solar_system
+{
+    height: 80%;
+    opacity: .99;
+}
+
+#table_info
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    border-collapse: collapse;
+    z-index: -10;
+}
+
+#td_info
+{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(29, 27, 27);
+    border: 5px solid rgb(52, 56, 119);
+}
+
+#td_moon
+{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(29, 27, 27);;
+    border: 5px solid rgb(52, 56, 119);
+}
+
+#sun
+{
+    width: 9%;
+    object-fit: contain;
+    position: absolute;
+    right: 45%;
+    top: 45%;
+    z-index: 0;
+    outline:none;
+}
+
+#mercure
+{
+    width: 1.5%;
+    object-fit: contain;
+    position: absolute;
+    right: 44%;
+    top: 44%;
+    z-index: 1;
+    outline: none;
+}
+
+#venus
+{
+    width: 3.5%;
+    object-fit: contain;
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    z-index: 2;
+    outline: none;
+}
+
+#earth
+{
+    width: 3.5%;
+    object-fit: contain;
+    position: absolute;
+    right: 36%;
+    top: 36%;
+    z-index: 3;
+    outline: none;
+}
+
+#mars
+{
+    width: 2%;
+    object-fit: contain;
+    position: absolute;
+    right: 34%;
+    top: 34%;
+    z-index: 4;
+    outline: none;
+}
+
+#jupiter
+{
+    width: 5%;
+    object-fit: contain;
+    position: absolute;
+    right: 28%;
+    top: 28%;
+    z-index: 5;
+    outline: none;
+}
+
+#saturne
+{
+    width: 7%;
+    object-fit: contain;
+    position: absolute;
+    right: 21.5%;
+    top: 21.5%;
+    z-index: 6;
+    outline: none;
+}
+
+#uranus
+{
+    width: 4%;
+    object-fit: contain;
+    position: absolute;
+    right: 19%;
+    top: 19%;
+    z-index: 7;
+    outline: none;
+}
+
+#neptune
+{
+    width: 4%;
+    object-fit: contain;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    z-index: 8;
+    outline: none;
+}
+
+#moon_list
+{
+    width: 100%;
+    background-color: rgb(29, 27, 27);;
+    color: white;
+    Font-Family:"Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+#lune_title
+{
+    Font-Family: "Minecraft";
+}
+
+#lune
+{
+    color:cyan;
+}
