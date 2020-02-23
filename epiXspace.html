@@ -1,0 +1,52 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>epiXspace</title>
+        <link rel="stylesheet" type="text/css" href="epiXspace.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/planetinfo.js"></script>
+        <link rel="icon" href="sprites/icon.ico">
+    </head>
+    <body>
+        <header>
+            <center><img src="sprites/logo.png"></center>
+        </header>
+        <audio id="music" autoplay loop>
+            <source src="audio/background.mp3" type="audio/mp3">
+        </audio>
+        <div id="solar_system">
+            <input id="sun" type="image" value="sun"  onclick="planetGET('soleil')" src="sprites/sun.png"/>
+            <input id="mercure" type="image" value="mercure"  onclick="planetGET('mercure')" src="sprites/mercure.png" />
+            <input id="venus" type="image" value="venus"  onclick="planetGET('venus')" src="sprites/venus.png" />
+            <input id="earth" type="image" value="earth"  onclick="planetGET('terre')" src="sprites/earth.png"/>
+            <input id="mars" type="image" value="mars"  onclick="planetGET('mars')" src="sprites/mars.png" />
+            <input id="jupiter" type="image" value="jupiter"  onclick="planetGET('jupiter')" src="sprites/jupiter.png"/>
+            <input id="saturne" type="image" value="saturne"  onclick="planetGET('saturne')" src="sprites/saturne.png"/>
+            <input id="uranus" type="image" value="uranus"  onclick="planetGET('uranus')" src="sprites/uranus.png" />
+            <input id="neptune" type="image" value="neptune"  onclick="planetGET('neptune')" src="sprites/neptune.png"/>
+            <table id="table_info">
+                <tr>
+                    <td id=td_info>
+                        <p id="EnglishName"></p>
+                        <p id="inclination"></p>
+                        <p id="density"></p>
+                        <p id="gravity"></p>
+                        <p id="meanRadius"></p>
+                        <p id="sideralOrbit"></p>
+                        <p id="sideralRotation"></p>
+                        <p id="discoveredBy"></p>
+                    </td>
+                    <td id="td_moon">
+                        <div id="moon_list"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="js/ellipse_move.js"></script>
+        <script src="js/Death_star.js"></script>
+       <span id="kp"></span>
+        <br />
+        <span id="kc"></span>
+    </body>
+</html>
